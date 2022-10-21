@@ -1,0 +1,17 @@
+@layer reset {
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@layer application {
+  #main {
+    position: relative;
+  }
+  #main > canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
